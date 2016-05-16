@@ -36,7 +36,7 @@ import { HomeView } from './home/index';
                 <router-outlet></router-outlet>
 
             </md-sidenav-layout>
-    
+
   `,
   styleUrls: ['app/app.css'],
   directives: [ROUTER_DIRECTIVES, MdToolbar, MdButton, MdCard, MdCardHeader, MdCardTitleGroup],
