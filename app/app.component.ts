@@ -1,70 +1,60 @@
-import {Component} from 'angular2/core';
+import { Component } from '@angular/core';
+import { Routes, Router, ROUTER_DIRECTIVES  } from '@angular/router';
 
-import {Router, RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
-
-import {MdToolbar} from '@angular2-material/toolbar/toolbar';
-import {MdSidenav, MdSidenavLayout} from '@angular2-material/sidenav/sidenav';
+import { MdToolbar } from '@angular2-material/toolbar/toolbar';
+import { MdButton } from '@angular2-material/button/button';
 import {MdCard, MdCardHeader, MdCardTitleGroup} from '@angular2-material/card/card';
-import {MD_LIST_DIRECTIVES} from '@angular2-material/list/list';
-import {MdButton} from '@angular2-material/button/button';
 
-import {HomeView} from './home/index';
-import {HeroView} from './hero/views/index';
+
+import { Hero, HeroService, HeroView } from './hero/index';
+import { HomeView } from './home/index';
 
 @Component({
-    selector: 'my-app',
-    template: `
-        <md-toolbar color="primary">
-            <button md-icon-button (click)="nav.toggle()">
-                <i class="material-icons demo-toolbar-icon">menu</i>
-            </button>
-            <span> My Heros Application</span>
-        </md-toolbar>
+  selector: 'my-app',
+  template: `
 
-        <md-sidenav-layout class="hundred">
+            <md-toolbar color="primary">
+                <button md-icon-button (click)="nav.toggle()">
+                    <i class="material-icons demo-toolbar-icon">menu</i>
+                </button>
+                <span> My Heros Application</span>
+            </md-toolbar>
 
-            <md-sidenav #nav opened="true" mode="side">
-                <md-list>
-                    <md-list-item>
-                        <button md-button (click)="navigateToHome()">Home</button>
-                    </md-list-item>
-                    <md-list-item>
-                        <button md-button (click)="navigateToHeros()">Heros</button>
-                    </md-list-item>
-                </md-list>
-            </md-sidenav>
+            <md-sidenav-layout class="hundred">
 
-            <router-outlet></router-outlet>
+                <md-sidenav #nav opened="true" mode="side">
+                    <md-list>
+                        <md-list-item>
+                            <button md-button (click)="navigateToHome()">Home</button>
+                        </md-list-item>
+                        <md-list-item>
+                            <button md-button (click)="navigateToHeros()">Heros</button>
+                        </md-list-item>
+                    </md-list>
+                </md-sidenav>
 
-            <!--router-outlet name="detail"></router-outlet-->
+                <router-outlet></router-outlet>
 
-        </md-sidenav-layout>
-
-   `,
-   styleUrls: ['app/app.css'],
-   directives: [ROUTER_DIRECTIVES, MD_LIST_DIRECTIVES, MdButton, MdToolbar, MdSidenav, MdSidenavLayout, MdCard, MdCardHeader, MdCardTitleGroup]
+            </md-sidenav-layout>
+    
+  `,
+  styleUrls: ['app/app.css'],
+  directives: [ROUTER_DIRECTIVES, MdToolbar, MdButton, MdCard, MdCardHeader, MdCardTitleGroup],
+  providers: [HeroService]
 })
-@RouteConfig([
-    {
-        path: '/',
-        name: 'HomeView',
-        component: HomeView,
-        useAsDefault: true
-    },
-    {
-        path: '/heros/...',
-        name: 'HeroView',
-        component: HeroView
-    }
+@Routes([
+    { path: '/', component: HomeView },
+    { path: '/heros', component: HeroView }
 ])
 export class AppComponent {
-    constructor(private _router: Router) {}
+
+    constructor(private _router: Router) { }
 
     navigateToHome() {
-        this._router.navigate(['HomeView']);
+        this._router.navigate(['/']);
     }
 
     navigateToHeros() {
-        this._router.navigate(['HeroView']);
+        this._router.navigate(['/heros']);
     }
 }

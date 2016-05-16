@@ -1,12 +1,12 @@
-import {Component, Input, Output, EventEmitter} from 'angular2/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
-import {Hero} from '../../index';
+import { Hero } from '../../models/hero';
 
 @Component({
     selector: 'my-hero-list',
     template: `
         <ul class="heroes">
-            <li *ngFor="#hero of heros"
+            <li *ngFor="let hero of heros"
                 [class.selected]="hero === selectedHero"
                 (click)="onSelect(hero)">
                 <span class="badge">{{hero.id}}</span> {{hero.name}}

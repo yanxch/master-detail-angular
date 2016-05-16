@@ -1,74 +1,24 @@
 <html>
   <head>
-    <base href="/">
+      <base href="/">
     <title>Angular 2 QuickStart</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- 1. Load libraries -->
-    <!-- IE required polyfills, in this exact order -->
+     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
 
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-
-    <script src="node_modules/angular2/bundles/router.dev.js"></script>
-
 
     <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
     <script>
-      System.config({
-        packages: {
-          'app': {
-                format: 'register',
-                defaultExtension: 'js'
-            },
-            'node_modules/@angular2-material/core': {
-                format: 'cjs',
-                defaultExtension: 'js'
-            },
-            'node_modules/@angular2-material/toolbar': {
-                format: 'cjs',
-                defaultExtension: 'js',
-                main: 'toolbar.js'
-            },
-            'node_modules/@angular2-material/card': {
-                format: 'cjs',
-                defaultExtension: 'js',
-                main: 'card.js'
-            },
-            'node_modules/@angular2-material/sidenav': {
-                format: 'cjs',
-                defaultExtension: 'js',
-                main: 'sidenav.js'
-            },
-            'node_modules/@angular2-material/list': {
-                format: 'cjs',
-                defaultExtension: 'js',
-                main: 'list.js'
-            },
-            'node_modules/@angular2-material/button': {
-                format: 'cjs',
-                defaultExtension: 'js',
-                main: 'button.js'
-            }
-        },
-        map: {
-            '@angular2-material/core': '/node_modules/@angular2-material/core',
-            '@angular2-material/toolbar' : '/node_modules/@angular2-material/toolbar',
-            '@angular2-material/card' : '/node_modules/@angular2-material/card',
-            '@angular2-material/sidenav' : '/node_modules/@angular2-material/sidenav',
-            '@angular2-material/list' : '/node_modules/@angular2-material/list',
-            '@angular2-material/button' : '/node_modules/@angular2-material/button'
-        }
-      });
-      System.import('app/main')
-            .then(null, console.error.bind(console));
+      System.import('app').catch(function(err){ console.error(err); });
     </script>
   </head>
 

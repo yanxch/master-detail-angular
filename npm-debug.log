@@ -1,0 +1,1081 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/package.json
+5 warn package.json angular2-quickstart@1.0.0 No description
+6 warn package.json angular2-quickstart@1.0.0 No repository field.
+7 warn package.json angular2-quickstart@1.0.0 No README data
+8 verbose install where, deps [ '/Users/chrisyanx/git/master-detail-angular2',
+8 verbose install   [ '@angular/common',
+8 verbose install     '@angular/compiler',
+8 verbose install     '@angular/core',
+8 verbose install     '@angular/http',
+8 verbose install     '@angular/platform-browser',
+8 verbose install     '@angular/platform-browser-dynamic',
+8 verbose install     '@angular/router',
+8 verbose install     '@angular/router-deprecated',
+8 verbose install     '@angular/upgrade',
+8 verbose install     '@angular2-material/button',
+8 verbose install     '@angular2-material/card',
+8 verbose install     '@angular2-material/core',
+8 verbose install     '@angular2-material/list',
+8 verbose install     '@angular2-material/sidenav',
+8 verbose install     '@angular2-material/toolbar',
+8 verbose install     'systemjs',
+8 verbose install     'es6-shim',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'zone.js',
+8 verbose install     'angular2-in-memory-web-api',
+8 verbose install     'bootstrap',
+8 verbose install     'concurrently',
+8 verbose install     'lite-server',
+8 verbose install     'typescript',
+8 verbose install     'typings' ] ]
+9 verbose install where, peers [ '/Users/chrisyanx/git/master-detail-angular2', [] ]
+10 verbose installManyTop reading for lifecycle /Users/chrisyanx/git/master-detail-angular2/package.json
+11 info preinstall angular2-quickstart@1.0.0
+12 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/angular2/package.json
+13 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/angular2-in-memory-web-api/package.json
+14 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/bootstrap/package.json
+15 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/concurrently/package.json
+16 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/es6-shim/package.json
+17 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/lite-server/package.json
+18 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/reflect-metadata/package.json
+19 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/rxjs/package.json
+20 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/systemjs/package.json
+21 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/typescript/package.json
+22 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/typings/package.json
+23 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/zone.js/package.json
+24 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/common/package.json
+25 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/compiler/package.json
+26 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/core/package.json
+27 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/http/package.json
+28 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/platform-browser/package.json
+29 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/platform-browser-dynamic/package.json
+30 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/router/package.json
+31 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/router-deprecated/package.json
+32 verbose installManyTop reading scoped package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/upgrade/package.json
+33 info package.json @angular/compiler@2.0.0-rc.1 No description
+34 info package.json @angular/compiler@2.0.0-rc.1 No repository field.
+35 info package.json @angular/core@2.0.0-rc.1 No description
+36 info package.json @angular/core@2.0.0-rc.1 No repository field.
+37 info package.json @angular/platform-browser@2.0.0-rc.1 No description
+38 info package.json @angular/platform-browser@2.0.0-rc.1 No repository field.
+39 info package.json @angular/http@2.0.0-rc.1 No description
+40 info package.json @angular/http@2.0.0-rc.1 No repository field.
+41 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No description
+42 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No repository field.
+43 info package.json @angular/router@2.0.0-rc.1 No description
+44 info package.json @angular/router@2.0.0-rc.1 No repository field.
+45 info package.json @angular/router-deprecated@2.0.0-rc.1 No description
+46 info package.json @angular/router-deprecated@2.0.0-rc.1 No repository field.
+47 info package.json @angular/upgrade@2.0.0-rc.1 No description
+48 info package.json @angular/upgrade@2.0.0-rc.1 No repository field.
+49 info package.json @angular/common@2.0.0-rc.1 No description
+50 info package.json @angular/common@2.0.0-rc.1 No repository field.
+51 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/package.json
+52 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/angular2/package.json
+53 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/angular2-in-memory-web-api/package.json
+54 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/bootstrap/package.json
+55 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/concurrently/package.json
+56 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/es6-shim/package.json
+57 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/lite-server/package.json
+58 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/reflect-metadata/package.json
+59 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/rxjs/package.json
+60 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/systemjs/package.json
+61 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/typescript/package.json
+62 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/typings/package.json
+63 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/zone.js/package.json
+64 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/.bin/concurrent/package.json
+65 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/.bin/concurrently/package.json
+66 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/.bin/lite-server/package.json
+67 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/.bin/tsc/package.json
+68 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/.bin/tsserver/package.json
+69 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/.bin/typings/package.json
+70 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/common/package.json
+71 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/compiler/package.json
+72 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/core/package.json
+73 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/http/package.json
+74 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/platform-browser/package.json
+75 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/platform-browser-dynamic/package.json
+76 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/router/package.json
+77 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/router-deprecated/package.json
+78 verbose targetResolver reading package data from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular/upgrade/package.json
+79 verbose already installed skipping @angular/platform-browser@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+80 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+81 verbose already installed skipping @angular/router@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+82 verbose already installed skipping @angular/router-deprecated@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+83 verbose already installed skipping @angular/upgrade@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+84 silly cache add args [ '@angular2-material/button@2.0.0-alpha.4', null ]
+85 verbose cache add spec @angular2-material/button@2.0.0-alpha.4
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: '@angular2-material/button@2.0.0-alpha.4',
+86 silly cache add   scope: '@angular2-material',
+86 silly cache add   name: '@angular2-material/button',
+86 silly cache add   rawSpec: '2.0.0-alpha.4',
+86 silly cache add   spec: '2.0.0-alpha.4',
+86 silly cache add   type: 'version' }
+87 silly addNamed @angular2-material/button@2.0.0-alpha.4
+88 verbose addNamed "2.0.0-alpha.4" is a plain semver version for @angular2-material/button
+89 silly mapToRegistry name @angular2-material/button
+90 silly mapToRegistry scope (from package name) @angular2-material
+91 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: '@angular2-material/button',
+94 silly mapToRegistry   scope: '@angular2-material',
+94 silly mapToRegistry   name: '@angular2-material/button',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fbutton
+96 verbose addNameVersion registry:https://registry.npmjs.org/@angular2-material%2fbutton not in flight; fetching
+97 silly cache add args [ '@angular2-material/card@2.0.0-alpha.4', null ]
+98 verbose cache add spec @angular2-material/card@2.0.0-alpha.4
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: '@angular2-material/card@2.0.0-alpha.4',
+99 silly cache add   scope: '@angular2-material',
+99 silly cache add   name: '@angular2-material/card',
+99 silly cache add   rawSpec: '2.0.0-alpha.4',
+99 silly cache add   spec: '2.0.0-alpha.4',
+99 silly cache add   type: 'version' }
+100 silly addNamed @angular2-material/card@2.0.0-alpha.4
+101 verbose addNamed "2.0.0-alpha.4" is a plain semver version for @angular2-material/card
+102 silly mapToRegistry name @angular2-material/card
+103 silly mapToRegistry scope (from package name) @angular2-material
+104 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: '@angular2-material/card',
+107 silly mapToRegistry   scope: '@angular2-material',
+107 silly mapToRegistry   name: '@angular2-material/card',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fcard
+109 verbose addNameVersion registry:https://registry.npmjs.org/@angular2-material%2fcard not in flight; fetching
+110 silly cache add args [ '@angular2-material/core@2.0.0-alpha.4', null ]
+111 verbose cache add spec @angular2-material/core@2.0.0-alpha.4
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: '@angular2-material/core@2.0.0-alpha.4',
+112 silly cache add   scope: '@angular2-material',
+112 silly cache add   name: '@angular2-material/core',
+112 silly cache add   rawSpec: '2.0.0-alpha.4',
+112 silly cache add   spec: '2.0.0-alpha.4',
+112 silly cache add   type: 'version' }
+113 silly addNamed @angular2-material/core@2.0.0-alpha.4
+114 verbose addNamed "2.0.0-alpha.4" is a plain semver version for @angular2-material/core
+115 silly mapToRegistry name @angular2-material/core
+116 silly mapToRegistry scope (from package name) @angular2-material
+117 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: '@angular2-material/core',
+120 silly mapToRegistry   scope: '@angular2-material',
+120 silly mapToRegistry   name: '@angular2-material/core',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fcore
+122 verbose addNameVersion registry:https://registry.npmjs.org/@angular2-material%2fcore not in flight; fetching
+123 silly cache add args [ '@angular2-material/list@2.0.0-alpha.4', null ]
+124 verbose cache add spec @angular2-material/list@2.0.0-alpha.4
+125 silly cache add parsed spec Result {
+125 silly cache add   raw: '@angular2-material/list@2.0.0-alpha.4',
+125 silly cache add   scope: '@angular2-material',
+125 silly cache add   name: '@angular2-material/list',
+125 silly cache add   rawSpec: '2.0.0-alpha.4',
+125 silly cache add   spec: '2.0.0-alpha.4',
+125 silly cache add   type: 'version' }
+126 silly addNamed @angular2-material/list@2.0.0-alpha.4
+127 verbose addNamed "2.0.0-alpha.4" is a plain semver version for @angular2-material/list
+128 silly mapToRegistry name @angular2-material/list
+129 silly mapToRegistry scope (from package name) @angular2-material
+130 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry data Result {
+133 silly mapToRegistry   raw: '@angular2-material/list',
+133 silly mapToRegistry   scope: '@angular2-material',
+133 silly mapToRegistry   name: '@angular2-material/list',
+133 silly mapToRegistry   rawSpec: '',
+133 silly mapToRegistry   spec: 'latest',
+133 silly mapToRegistry   type: 'tag' }
+134 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2flist
+135 verbose addNameVersion registry:https://registry.npmjs.org/@angular2-material%2flist not in flight; fetching
+136 silly cache add args [ '@angular2-material/sidenav@2.0.0-alpha.4', null ]
+137 verbose cache add spec @angular2-material/sidenav@2.0.0-alpha.4
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: '@angular2-material/sidenav@2.0.0-alpha.4',
+138 silly cache add   scope: '@angular2-material',
+138 silly cache add   name: '@angular2-material/sidenav',
+138 silly cache add   rawSpec: '2.0.0-alpha.4',
+138 silly cache add   spec: '2.0.0-alpha.4',
+138 silly cache add   type: 'version' }
+139 silly addNamed @angular2-material/sidenav@2.0.0-alpha.4
+140 verbose addNamed "2.0.0-alpha.4" is a plain semver version for @angular2-material/sidenav
+141 silly mapToRegistry name @angular2-material/sidenav
+142 silly mapToRegistry scope (from package name) @angular2-material
+143 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: '@angular2-material/sidenav',
+146 silly mapToRegistry   scope: '@angular2-material',
+146 silly mapToRegistry   name: '@angular2-material/sidenav',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2fsidenav
+148 verbose addNameVersion registry:https://registry.npmjs.org/@angular2-material%2fsidenav not in flight; fetching
+149 silly cache add args [ '@angular2-material/toolbar@2.0.0-alpha.4', null ]
+150 verbose cache add spec @angular2-material/toolbar@2.0.0-alpha.4
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: '@angular2-material/toolbar@2.0.0-alpha.4',
+151 silly cache add   scope: '@angular2-material',
+151 silly cache add   name: '@angular2-material/toolbar',
+151 silly cache add   rawSpec: '2.0.0-alpha.4',
+151 silly cache add   spec: '2.0.0-alpha.4',
+151 silly cache add   type: 'version' }
+152 silly addNamed @angular2-material/toolbar@2.0.0-alpha.4
+153 verbose addNamed "2.0.0-alpha.4" is a plain semver version for @angular2-material/toolbar
+154 silly mapToRegistry name @angular2-material/toolbar
+155 silly mapToRegistry scope (from package name) @angular2-material
+156 verbose mapToRegistry no registry URL found in name for scope @angular2-material
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry data Result {
+159 silly mapToRegistry   raw: '@angular2-material/toolbar',
+159 silly mapToRegistry   scope: '@angular2-material',
+159 silly mapToRegistry   name: '@angular2-material/toolbar',
+159 silly mapToRegistry   rawSpec: '',
+159 silly mapToRegistry   spec: 'latest',
+159 silly mapToRegistry   type: 'tag' }
+160 silly mapToRegistry uri https://registry.npmjs.org/@angular2-material%2ftoolbar
+161 verbose addNameVersion registry:https://registry.npmjs.org/@angular2-material%2ftoolbar not in flight; fetching
+162 verbose already installed skipping systemjs@0.19.27 /Users/chrisyanx/git/master-detail-angular2
+163 verbose already installed skipping es6-shim@^0.35.0 /Users/chrisyanx/git/master-detail-angular2
+164 verbose already installed skipping reflect-metadata@^0.1.3 /Users/chrisyanx/git/master-detail-angular2
+165 verbose already installed skipping rxjs@5.0.0-beta.6 /Users/chrisyanx/git/master-detail-angular2
+166 verbose already installed skipping zone.js@^0.6.12 /Users/chrisyanx/git/master-detail-angular2
+167 verbose already installed skipping angular2-in-memory-web-api@0.0.7 /Users/chrisyanx/git/master-detail-angular2
+168 verbose already installed skipping bootstrap@^3.3.6 /Users/chrisyanx/git/master-detail-angular2
+169 verbose already installed skipping concurrently@^2.0.0 /Users/chrisyanx/git/master-detail-angular2
+170 verbose already installed skipping lite-server@^2.2.0 /Users/chrisyanx/git/master-detail-angular2
+171 verbose already installed skipping typescript@^1.8.10 /Users/chrisyanx/git/master-detail-angular2
+172 verbose already installed skipping typings@^0.8.1 /Users/chrisyanx/git/master-detail-angular2
+173 verbose already installed skipping @angular/common@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+174 verbose already installed skipping @angular/compiler@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+175 verbose request uri https://registry.npmjs.org/@angular2-material%2fbutton
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 10:25:26 AM
+178 verbose request using bearer token for auth
+179 verbose request id 9e67c582ba6681f5
+180 verbose etag "EYWUPJ59QWQ0PG2SQIO4RQPI7"
+181 http request GET https://registry.npmjs.org/@angular2-material%2fbutton
+182 verbose already installed skipping @angular/core@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+183 verbose already installed skipping @angular/http@2.0.0-rc.1 /Users/chrisyanx/git/master-detail-angular2
+184 verbose request uri https://registry.npmjs.org/@angular2-material%2flist
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 10:25:26 AM
+187 verbose request using bearer token for auth
+188 verbose etag "18E6MI28VM4MD5GVKF9YZMKBA"
+189 http request GET https://registry.npmjs.org/@angular2-material%2flist
+190 verbose request uri https://registry.npmjs.org/@angular2-material%2fcore
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 10:25:26 AM
+193 verbose request using bearer token for auth
+194 verbose etag "AJNR5X8HJLEM7SNBZOF0IB1O8"
+195 http request GET https://registry.npmjs.org/@angular2-material%2fcore
+196 verbose request uri https://registry.npmjs.org/@angular2-material%2fcard
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 10:25:26 AM
+199 verbose request using bearer token for auth
+200 verbose etag "3ZFOE786WX4XEX6WF35S3DHQM"
+201 http request GET https://registry.npmjs.org/@angular2-material%2fcard
+202 verbose request uri https://registry.npmjs.org/@angular2-material%2fsidenav
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 10:25:26 AM
+205 verbose request using bearer token for auth
+206 verbose etag "8GT229F56VEHQ6IZQ69SFY9SI"
+207 http request GET https://registry.npmjs.org/@angular2-material%2fsidenav
+208 verbose request uri https://registry.npmjs.org/@angular2-material%2ftoolbar
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 10:25:26 AM
+211 verbose request using bearer token for auth
+212 verbose etag "43O6QZQBLMRS3CE1OCE77YSOX"
+213 http request GET https://registry.npmjs.org/@angular2-material%2ftoolbar
+214 http 304 https://registry.npmjs.org/@angular2-material%2fbutton
+215 verbose headers { 'cache-control': 'max-age=0',
+215 verbose headers   'accept-ranges': 'bytes',
+215 verbose headers   date: 'Mon, 16 May 2016 08:25:26 GMT',
+215 verbose headers   via: '1.1 varnish',
+215 verbose headers   connection: 'keep-alive',
+215 verbose headers   'x-served-by': 'cache-fra1239-FRA',
+215 verbose headers   'x-cache': 'MISS',
+215 verbose headers   'x-cache-hits': '0',
+215 verbose headers   'x-timer': 'S1463387126.232861,VS0,VE192',
+215 verbose headers   vary: 'Accept-Encoding' }
+216 silly get cb [ 304,
+216 silly get   { 'cache-control': 'max-age=0',
+216 silly get     'accept-ranges': 'bytes',
+216 silly get     date: 'Mon, 16 May 2016 08:25:26 GMT',
+216 silly get     via: '1.1 varnish',
+216 silly get     connection: 'keep-alive',
+216 silly get     'x-served-by': 'cache-fra1239-FRA',
+216 silly get     'x-cache': 'MISS',
+216 silly get     'x-cache-hits': '0',
+216 silly get     'x-timer': 'S1463387126.232861,VS0,VE192',
+216 silly get     vary: 'Accept-Encoding' } ]
+217 verbose etag https://registry.npmjs.org/@angular2-material%2fbutton from cache
+218 verbose get saving @angular2-material/button to /Users/chrisyanx/.npm/registry.npmjs.org/_40angular2-material_252fbutton/.cache.json
+219 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+220 silly cache afterAdd @angular2-material/button@2.0.0-alpha.4
+221 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/button/2.0.0-alpha.4/package/package.json not in flight; writing
+222 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+223 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/button/2.0.0-alpha.4/package/package.json written
+224 http 304 https://registry.npmjs.org/@angular2-material%2fcard
+225 verbose headers { 'cache-control': 'max-age=0',
+225 verbose headers   'accept-ranges': 'bytes',
+225 verbose headers   date: 'Mon, 16 May 2016 08:25:26 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+225 verbose headers   'x-cache': 'MISS',
+225 verbose headers   'x-cache-hits': '0',
+225 verbose headers   'x-timer': 'S1463387126.249012,VS0,VE199',
+225 verbose headers   vary: 'Accept-Encoding' }
+226 silly get cb [ 304,
+226 silly get   { 'cache-control': 'max-age=0',
+226 silly get     'accept-ranges': 'bytes',
+226 silly get     date: 'Mon, 16 May 2016 08:25:26 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-fra1227-FRA',
+226 silly get     'x-cache': 'MISS',
+226 silly get     'x-cache-hits': '0',
+226 silly get     'x-timer': 'S1463387126.249012,VS0,VE199',
+226 silly get     vary: 'Accept-Encoding' } ]
+227 verbose etag https://registry.npmjs.org/@angular2-material%2fcard from cache
+228 verbose get saving @angular2-material/card to /Users/chrisyanx/.npm/registry.npmjs.org/_40angular2-material_252fcard/.cache.json
+229 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+230 silly cache afterAdd @angular2-material/card@2.0.0-alpha.4
+231 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/card/2.0.0-alpha.4/package/package.json not in flight; writing
+232 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+233 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/card/2.0.0-alpha.4/package/package.json written
+234 http 304 https://registry.npmjs.org/@angular2-material%2fcore
+235 verbose headers { 'cache-control': 'max-age=0',
+235 verbose headers   'accept-ranges': 'bytes',
+235 verbose headers   date: 'Mon, 16 May 2016 08:25:26 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'x-served-by': 'cache-fra1248-FRA',
+235 verbose headers   'x-cache': 'MISS',
+235 verbose headers   'x-cache-hits': '0',
+235 verbose headers   'x-timer': 'S1463387126.209740,VS0,VE415',
+235 verbose headers   vary: 'Accept-Encoding' }
+236 silly get cb [ 304,
+236 silly get   { 'cache-control': 'max-age=0',
+236 silly get     'accept-ranges': 'bytes',
+236 silly get     date: 'Mon, 16 May 2016 08:25:26 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-fra1248-FRA',
+236 silly get     'x-cache': 'MISS',
+236 silly get     'x-cache-hits': '0',
+236 silly get     'x-timer': 'S1463387126.209740,VS0,VE415',
+236 silly get     vary: 'Accept-Encoding' } ]
+237 verbose etag https://registry.npmjs.org/@angular2-material%2fcore from cache
+238 verbose get saving @angular2-material/core to /Users/chrisyanx/.npm/registry.npmjs.org/_40angular2-material_252fcore/.cache.json
+239 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+240 silly cache afterAdd @angular2-material/core@2.0.0-alpha.4
+241 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/core/2.0.0-alpha.4/package/package.json not in flight; writing
+242 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+243 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/core/2.0.0-alpha.4/package/package.json written
+244 http 304 https://registry.npmjs.org/@angular2-material%2ftoolbar
+245 verbose headers { 'cache-control': 'max-age=0',
+245 verbose headers   'accept-ranges': 'bytes',
+245 verbose headers   date: 'Mon, 16 May 2016 08:25:26 GMT',
+245 verbose headers   via: '1.1 varnish',
+245 verbose headers   connection: 'keep-alive',
+245 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+245 verbose headers   'x-cache': 'MISS',
+245 verbose headers   'x-cache-hits': '0',
+245 verbose headers   'x-timer': 'S1463387126.585941,VS0,VE192',
+245 verbose headers   vary: 'Accept-Encoding' }
+246 silly get cb [ 304,
+246 silly get   { 'cache-control': 'max-age=0',
+246 silly get     'accept-ranges': 'bytes',
+246 silly get     date: 'Mon, 16 May 2016 08:25:26 GMT',
+246 silly get     via: '1.1 varnish',
+246 silly get     connection: 'keep-alive',
+246 silly get     'x-served-by': 'cache-fra1238-FRA',
+246 silly get     'x-cache': 'MISS',
+246 silly get     'x-cache-hits': '0',
+246 silly get     'x-timer': 'S1463387126.585941,VS0,VE192',
+246 silly get     vary: 'Accept-Encoding' } ]
+247 verbose etag https://registry.npmjs.org/@angular2-material%2ftoolbar from cache
+248 verbose get saving @angular2-material/toolbar to /Users/chrisyanx/.npm/registry.npmjs.org/_40angular2-material_252ftoolbar/.cache.json
+249 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+250 silly cache afterAdd @angular2-material/toolbar@2.0.0-alpha.4
+251 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/toolbar/2.0.0-alpha.4/package/package.json not in flight; writing
+252 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+253 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/toolbar/2.0.0-alpha.4/package/package.json written
+254 http 304 https://registry.npmjs.org/@angular2-material%2flist
+255 verbose headers { 'cache-control': 'max-age=0',
+255 verbose headers   'accept-ranges': 'bytes',
+255 verbose headers   date: 'Mon, 16 May 2016 08:25:26 GMT',
+255 verbose headers   via: '1.1 varnish',
+255 verbose headers   connection: 'keep-alive',
+255 verbose headers   'x-served-by': 'cache-fra1241-FRA',
+255 verbose headers   'x-cache': 'MISS',
+255 verbose headers   'x-cache-hits': '0',
+255 verbose headers   'x-timer': 'S1463387126.218982,VS0,VE663',
+255 verbose headers   vary: 'Accept-Encoding' }
+256 silly get cb [ 304,
+256 silly get   { 'cache-control': 'max-age=0',
+256 silly get     'accept-ranges': 'bytes',
+256 silly get     date: 'Mon, 16 May 2016 08:25:26 GMT',
+256 silly get     via: '1.1 varnish',
+256 silly get     connection: 'keep-alive',
+256 silly get     'x-served-by': 'cache-fra1241-FRA',
+256 silly get     'x-cache': 'MISS',
+256 silly get     'x-cache-hits': '0',
+256 silly get     'x-timer': 'S1463387126.218982,VS0,VE663',
+256 silly get     vary: 'Accept-Encoding' } ]
+257 verbose etag https://registry.npmjs.org/@angular2-material%2flist from cache
+258 verbose get saving @angular2-material/list to /Users/chrisyanx/.npm/registry.npmjs.org/_40angular2-material_252flist/.cache.json
+259 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+260 silly cache afterAdd @angular2-material/list@2.0.0-alpha.4
+261 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/list/2.0.0-alpha.4/package/package.json not in flight; writing
+262 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+263 http 304 https://registry.npmjs.org/@angular2-material%2fsidenav
+264 verbose headers { 'cache-control': 'max-age=0',
+264 verbose headers   'accept-ranges': 'bytes',
+264 verbose headers   date: 'Mon, 16 May 2016 08:25:26 GMT',
+264 verbose headers   via: '1.1 varnish',
+264 verbose headers   connection: 'keep-alive',
+264 verbose headers   'x-served-by': 'cache-fra1240-FRA',
+264 verbose headers   'x-cache': 'MISS',
+264 verbose headers   'x-cache-hits': '0',
+264 verbose headers   'x-timer': 'S1463387126.224868,VS0,VE664',
+264 verbose headers   vary: 'Accept-Encoding' }
+265 silly get cb [ 304,
+265 silly get   { 'cache-control': 'max-age=0',
+265 silly get     'accept-ranges': 'bytes',
+265 silly get     date: 'Mon, 16 May 2016 08:25:26 GMT',
+265 silly get     via: '1.1 varnish',
+265 silly get     connection: 'keep-alive',
+265 silly get     'x-served-by': 'cache-fra1240-FRA',
+265 silly get     'x-cache': 'MISS',
+265 silly get     'x-cache-hits': '0',
+265 silly get     'x-timer': 'S1463387126.224868,VS0,VE664',
+265 silly get     vary: 'Accept-Encoding' } ]
+266 verbose etag https://registry.npmjs.org/@angular2-material%2fsidenav from cache
+267 verbose get saving @angular2-material/sidenav to /Users/chrisyanx/.npm/registry.npmjs.org/_40angular2-material_252fsidenav/.cache.json
+268 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+269 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/list/2.0.0-alpha.4/package/package.json written
+270 silly cache afterAdd @angular2-material/sidenav@2.0.0-alpha.4
+271 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/sidenav/2.0.0-alpha.4/package/package.json not in flight; writing
+272 verbose correctMkdir /Users/chrisyanx/.npm correctMkdir not in flight; initializing
+273 verbose afterAdd /Users/chrisyanx/.npm/@angular2-material/sidenav/2.0.0-alpha.4/package/package.json written
+274 silly install resolved [ { name: '@angular2-material/button',
+274 silly install resolved     version: '2.0.0-alpha.4',
+274 silly install resolved     description: 'Angular 2 Material button',
+274 silly install resolved     main: './button.js',
+274 silly install resolved     typings: './button.d.ts',
+274 silly install resolved     repository:
+274 silly install resolved      { type: 'git',
+274 silly install resolved        url: 'git+https://github.com/angular/material2.git' },
+274 silly install resolved     keywords:
+274 silly install resolved      [ 'angular',
+274 silly install resolved        'material',
+274 silly install resolved        'material design',
+274 silly install resolved        'components',
+274 silly install resolved        'button',
+274 silly install resolved        'anchor',
+274 silly install resolved        'linkbutton' ],
+274 silly install resolved     license: 'MIT',
+274 silly install resolved     bugs: { url: 'https://github.com/angular/material2/issues' },
+274 silly install resolved     homepage: 'https://github.com/angular/material2#readme',
+274 silly install resolved     peerDependencies: { '@angular2-material/core': '2.0.0-alpha.4' },
+274 silly install resolved     _id: '@angular2-material/button@2.0.0-alpha.4',
+274 silly install resolved     scripts: {},
+274 silly install resolved     _shasum: 'a308c9d69bf5bdf7eeb05610639857fccb1b5e74',
+274 silly install resolved     _from: '@angular2-material/button@2.0.0-alpha.4',
+274 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular2-material/button/-/button-2.0.0-alpha.4.tgz',
+274 silly install resolved     _npmVersion: '3.8.3',
+274 silly install resolved     _nodeVersion: '5.10.0',
+274 silly install resolved     _npmUser:
+274 silly install resolved      { name: 'angular2-material',
+274 silly install resolved        email: 'angular-core+npm@google.com' },
+274 silly install resolved     dist:
+274 silly install resolved      { shasum: 'a308c9d69bf5bdf7eeb05610639857fccb1b5e74',
+274 silly install resolved        tarball: 'https://registry.npmjs.org/@angular2-material/button/-/button-2.0.0-alpha.4.tgz' },
+274 silly install resolved     maintainers: [ [Object] ],
+274 silly install resolved     _npmOperationalInternal:
+274 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+274 silly install resolved        tmp: 'tmp/button-2.0.0-alpha.4.tgz_1462344245629_0.6583082224242389' },
+274 silly install resolved     directories: {},
+274 silly install resolved     readme: 'ERROR: No README data found!' },
+274 silly install resolved   { name: '@angular2-material/card',
+274 silly install resolved     version: '2.0.0-alpha.4',
+274 silly install resolved     description: 'Angular 2 Material card',
+274 silly install resolved     main: './card.js',
+274 silly install resolved     typings: './card.d.ts',
+274 silly install resolved     repository:
+274 silly install resolved      { type: 'git',
+274 silly install resolved        url: 'git+https://github.com/angular/material2.git' },
+274 silly install resolved     keywords: [ 'angular', 'material', 'material design', 'components', 'card' ],
+274 silly install resolved     license: 'MIT',
+274 silly install resolved     bugs: { url: 'https://github.com/angular/material2/issues' },
+274 silly install resolved     homepage: 'https://github.com/angular/material2#readme',
+274 silly install resolved     peerDependencies:
+274 silly install resolved      { angular2: '^2.0.0-beta.8',
+274 silly install resolved        '@angular2-material/core': '2.0.0-alpha.4' },
+274 silly install resolved     _id: '@angular2-material/card@2.0.0-alpha.4',
+274 silly install resolved     scripts: {},
+274 silly install resolved     _shasum: '541822efb4532c42fe1c832e7191a4bf6ae4ba30',
+274 silly install resolved     _from: '@angular2-material/card@2.0.0-alpha.4',
+274 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular2-material/card/-/card-2.0.0-alpha.4.tgz',
+274 silly install resolved     _npmVersion: '3.8.3',
+274 silly install resolved     _nodeVersion: '5.10.0',
+274 silly install resolved     _npmUser:
+274 silly install resolved      { name: 'angular2-material',
+274 silly install resolved        email: 'angular-core+npm@google.com' },
+274 silly install resolved     dist:
+274 silly install resolved      { shasum: '541822efb4532c42fe1c832e7191a4bf6ae4ba30',
+274 silly install resolved        tarball: 'https://registry.npmjs.org/@angular2-material/card/-/card-2.0.0-alpha.4.tgz' },
+274 silly install resolved     maintainers: [ [Object] ],
+274 silly install resolved     _npmOperationalInternal:
+274 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+274 silly install resolved        tmp: 'tmp/card-2.0.0-alpha.4.tgz_1462344249943_0.6807583752088249' },
+274 silly install resolved     directories: {},
+274 silly install resolved     readme: 'ERROR: No README data found!' },
+274 silly install resolved   { name: '@angular2-material/core',
+274 silly install resolved     version: '2.0.0-alpha.4',
+274 silly install resolved     description: 'Angular 2 Material core',
+274 silly install resolved     main: './core.js',
+274 silly install resolved     typings: './core.d.ts',
+274 silly install resolved     repository:
+274 silly install resolved      { type: 'git',
+274 silly install resolved        url: 'git+https://github.com/angular/material2.git' },
+274 silly install resolved     keywords: [ 'angular', 'material', 'material design', 'components' ],
+274 silly install resolved     license: 'MIT',
+274 silly install resolved     bugs: { url: 'https://github.com/angular/material2/issues' },
+274 silly install resolved     homepage: 'https://github.com/angular/material2#readme',
+274 silly install resolved     peerDependencies:
+274 silly install resolved      { '@angular/core': '^2.0.0-rc.0',
+274 silly install resolved        '@angular/common': '^2.0.0-rc.0' },
+274 silly install resolved     _id: '@angular2-material/core@2.0.0-alpha.4',
+274 silly install resolved     scripts: {},
+274 silly install resolved     _shasum: 'd2bfcd55e1defda940009728ead079b00db15aa1',
+274 silly install resolved     _from: '@angular2-material/core@2.0.0-alpha.4',
+274 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular2-material/core/-/core-2.0.0-alpha.4.tgz',
+274 silly install resolved     _npmVersion: '3.8.3',
+274 silly install resolved     _nodeVersion: '5.10.0',
+274 silly install resolved     _npmUser:
+274 silly install resolved      { name: 'angular2-material',
+274 silly install resolved        email: 'angular-core+npm@google.com' },
+274 silly install resolved     dist:
+274 silly install resolved      { shasum: 'd2bfcd55e1defda940009728ead079b00db15aa1',
+274 silly install resolved        tarball: 'https://registry.npmjs.org/@angular2-material/core/-/core-2.0.0-alpha.4.tgz' },
+274 silly install resolved     maintainers: [ [Object] ],
+274 silly install resolved     _npmOperationalInternal:
+274 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+274 silly install resolved        tmp: 'tmp/core-2.0.0-alpha.4.tgz_1462344263399_0.6263138779904693' },
+274 silly install resolved     directories: {},
+274 silly install resolved     readme: 'ERROR: No README data found!' },
+274 silly install resolved   { name: '@angular2-material/toolbar',
+274 silly install resolved     version: '2.0.0-alpha.4',
+274 silly install resolved     description: 'Angular 2 Material toolbar',
+274 silly install resolved     main: './toolbar.js',
+274 silly install resolved     typings: './toolbar.d.ts',
+274 silly install resolved     repository:
+274 silly install resolved      { type: 'git',
+274 silly install resolved        url: 'git+https://github.com/angular/material2.git' },
+274 silly install resolved     keywords:
+274 silly install resolved      [ 'angular',
+274 silly install resolved        'material',
+274 silly install resolved        'material design',
+274 silly install resolved        'components',
+274 silly install resolved        'toolbar',
+274 silly install resolved        'header' ],
+274 silly install resolved     license: 'MIT',
+274 silly install resolved     bugs: { url: 'https://github.com/angular/material2/issues' },
+274 silly install resolved     homepage: 'https://github.com/angular/material2#readme',
+274 silly install resolved     peerDependencies: { '@angular2-material/core': '2.0.0-alpha.4' },
+274 silly install resolved     _id: '@angular2-material/toolbar@2.0.0-alpha.4',
+274 silly install resolved     scripts: {},
+274 silly install resolved     _shasum: '1c19c110a75f1082e1441a61e140c50bbb30f462',
+274 silly install resolved     _from: '@angular2-material/toolbar@2.0.0-alpha.4',
+274 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular2-material/toolbar/-/toolbar-2.0.0-alpha.4.tgz',
+274 silly install resolved     _npmVersion: '3.8.3',
+274 silly install resolved     _nodeVersion: '5.10.0',
+274 silly install resolved     _npmUser:
+274 silly install resolved      { name: 'angular2-material',
+274 silly install resolved        email: 'angular-core+npm@google.com' },
+274 silly install resolved     dist:
+274 silly install resolved      { shasum: '1c19c110a75f1082e1441a61e140c50bbb30f462',
+274 silly install resolved        tarball: 'https://registry.npmjs.org/@angular2-material/toolbar/-/toolbar-2.0.0-alpha.4.tgz' },
+274 silly install resolved     maintainers: [ [Object] ],
+274 silly install resolved     _npmOperationalInternal:
+274 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+274 silly install resolved        tmp: 'tmp/toolbar-2.0.0-alpha.4.tgz_1462344304025_0.7350474558770657' },
+274 silly install resolved     directories: {},
+274 silly install resolved     readme: 'ERROR: No README data found!' },
+274 silly install resolved   { name: '@angular2-material/list',
+274 silly install resolved     version: '2.0.0-alpha.4',
+274 silly install resolved     description: 'Angular 2 Material list',
+274 silly install resolved     main: './list.js',
+274 silly install resolved     typings: './list.d.ts',
+274 silly install resolved     repository:
+274 silly install resolved      { type: 'git',
+274 silly install resolved        url: 'git+https://github.com/angular/material2.git' },
+274 silly install resolved     keywords: [ 'angular', 'material', 'material design', 'components', 'list' ],
+274 silly install resolved     license: 'MIT',
+274 silly install resolved     bugs: { url: 'https://github.com/angular/material2/issues' },
+274 silly install resolved     homepage: 'https://github.com/angular/material2#readme',
+274 silly install resolved     peerDependencies: { '@angular2-material/core': '2.0.0-alpha.4' },
+274 silly install resolved     _id: '@angular2-material/list@2.0.0-alpha.4',
+274 silly install resolved     scripts: {},
+274 silly install resolved     _shasum: '4a20718210a062cd2faf65c4f7b304e353d3e516',
+274 silly install resolved     _from: '@angular2-material/list@2.0.0-alpha.4',
+274 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular2-material/list/-/list-2.0.0-alpha.4.tgz',
+274 silly install resolved     _npmVersion: '3.8.3',
+274 silly install resolved     _nodeVersion: '5.10.0',
+274 silly install resolved     _npmUser:
+274 silly install resolved      { name: 'angular2-material',
+274 silly install resolved        email: 'angular-core+npm@google.com' },
+274 silly install resolved     dist:
+274 silly install resolved      { shasum: '4a20718210a062cd2faf65c4f7b304e353d3e516',
+274 silly install resolved        tarball: 'https://registry.npmjs.org/@angular2-material/list/-/list-2.0.0-alpha.4.tgz' },
+274 silly install resolved     maintainers: [ [Object] ],
+274 silly install resolved     _npmOperationalInternal:
+274 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+274 silly install resolved        tmp: 'tmp/list-2.0.0-alpha.4.tgz_1462344278008_0.06128202169202268' },
+274 silly install resolved     directories: {},
+274 silly install resolved     readme: 'ERROR: No README data found!' },
+274 silly install resolved   { name: '@angular2-material/sidenav',
+274 silly install resolved     version: '2.0.0-alpha.4',
+274 silly install resolved     description: 'Angular 2 Material sidenav',
+274 silly install resolved     main: './sidenav.js',
+274 silly install resolved     typings: './sidenav.d.ts',
+274 silly install resolved     repository:
+274 silly install resolved      { type: 'git',
+274 silly install resolved        url: 'git+https://github.com/angular/material2.git' },
+274 silly install resolved     keywords:
+274 silly install resolved      [ 'angular',
+274 silly install resolved        'material',
+274 silly install resolved        'material design',
+274 silly install resolved        'components',
+274 silly install resolved        'sidenav',
+274 silly install resolved        'sidepane',
+274 silly install resolved        'navigation',
+274 silly install resolved        'drawer' ],
+274 silly install resolved     license: 'MIT',
+274 silly install resolved     bugs: { url: 'https://github.com/angular/material2/issues' },
+274 silly install resolved     homepage: 'https://github.com/angular/material2#readme',
+274 silly install resolved     peerDependencies: { '@angular2-material/core': '2.0.0-alpha.4' },
+274 silly install resolved     _id: '@angular2-material/sidenav@2.0.0-alpha.4',
+274 silly install resolved     scripts: {},
+274 silly install resolved     _shasum: '71abc540044b0ac9230a279696378acea3ad3457',
+274 silly install resolved     _from: '@angular2-material/sidenav@2.0.0-alpha.4',
+274 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular2-material/sidenav/-/sidenav-2.0.0-alpha.4.tgz',
+274 silly install resolved     _npmVersion: '3.8.3',
+274 silly install resolved     _nodeVersion: '5.10.0',
+274 silly install resolved     _npmUser:
+274 silly install resolved      { name: 'angular2-material',
+274 silly install resolved        email: 'angular-core+npm@google.com' },
+274 silly install resolved     dist:
+274 silly install resolved      { shasum: '71abc540044b0ac9230a279696378acea3ad3457',
+274 silly install resolved        tarball: 'https://registry.npmjs.org/@angular2-material/sidenav/-/sidenav-2.0.0-alpha.4.tgz' },
+274 silly install resolved     maintainers: [ [Object] ],
+274 silly install resolved     _npmOperationalInternal:
+274 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+274 silly install resolved        tmp: 'tmp/sidenav-2.0.0-alpha.4.tgz_1462344298424_0.6989675336517394' },
+274 silly install resolved     directories: {},
+274 silly install resolved     readme: 'ERROR: No README data found!' } ]
+275 info install @angular2-material/button@2.0.0-alpha.4 into /Users/chrisyanx/git/master-detail-angular2
+276 info install @angular2-material/card@2.0.0-alpha.4 into /Users/chrisyanx/git/master-detail-angular2
+277 info install @angular2-material/core@2.0.0-alpha.4 into /Users/chrisyanx/git/master-detail-angular2
+278 info install @angular2-material/toolbar@2.0.0-alpha.4 into /Users/chrisyanx/git/master-detail-angular2
+279 info install @angular2-material/list@2.0.0-alpha.4 into /Users/chrisyanx/git/master-detail-angular2
+280 info install @angular2-material/sidenav@2.0.0-alpha.4 into /Users/chrisyanx/git/master-detail-angular2
+281 info installOne @angular2-material/button@2.0.0-alpha.4
+282 verbose installOne of @angular2-material/button to /Users/chrisyanx/git/master-detail-angular2 not in flight; installing
+283 verbose correctMkdir /Users/chrisyanx/.npm/_locks correctMkdir not in flight; initializing
+284 info installOne @angular2-material/card@2.0.0-alpha.4
+285 verbose installOne of @angular2-material/card to /Users/chrisyanx/git/master-detail-angular2 not in flight; installing
+286 verbose correctMkdir /Users/chrisyanx/.npm/_locks correctMkdir already in flight; waiting
+287 info installOne @angular2-material/core@2.0.0-alpha.4
+288 verbose installOne of @angular2-material/core to /Users/chrisyanx/git/master-detail-angular2 not in flight; installing
+289 verbose correctMkdir /Users/chrisyanx/.npm/_locks correctMkdir already in flight; waiting
+290 info installOne @angular2-material/toolbar@2.0.0-alpha.4
+291 verbose installOne of @angular2-material/toolbar to /Users/chrisyanx/git/master-detail-angular2 not in flight; installing
+292 verbose correctMkdir /Users/chrisyanx/.npm/_locks correctMkdir already in flight; waiting
+293 info installOne @angular2-material/list@2.0.0-alpha.4
+294 verbose installOne of @angular2-material/list to /Users/chrisyanx/git/master-detail-angular2 not in flight; installing
+295 verbose correctMkdir /Users/chrisyanx/.npm/_locks correctMkdir already in flight; waiting
+296 info installOne @angular2-material/sidenav@2.0.0-alpha.4
+297 verbose installOne of @angular2-material/sidenav to /Users/chrisyanx/git/master-detail-angular2 not in flight; installing
+298 verbose correctMkdir /Users/chrisyanx/.npm/_locks correctMkdir already in flight; waiting
+299 verbose lock using /Users/chrisyanx/.npm/_locks/angular2-material-button-f0cb0ad16b4c8062.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+300 verbose lock using /Users/chrisyanx/.npm/_locks/angular2-material-card-e32d217b7462a562.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+301 verbose lock using /Users/chrisyanx/.npm/_locks/angular2-material-core-d2c9ea6a292ea39e.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+302 silly install write writing @angular2-material/button 2.0.0-alpha.4 to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+303 silly install write writing @angular2-material/card 2.0.0-alpha.4 to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+304 silly install write writing @angular2-material/core 2.0.0-alpha.4 to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+305 verbose lock using /Users/chrisyanx/.npm/_locks/angular2-material-toolba-febac6ab33a41397.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+306 verbose lock using /Users/chrisyanx/.npm/_locks/angular2-material-list-1e95fc7d9a169270.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+307 verbose lock using /Users/chrisyanx/.npm/_locks/angular2-material-sidena-1526e57fb834da0b.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+308 silly install write writing @angular2-material/toolbar 2.0.0-alpha.4 to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+309 silly install write writing @angular2-material/list 2.0.0-alpha.4 to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+310 silly install write writing @angular2-material/sidenav 2.0.0-alpha.4 to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+311 verbose unbuild node_modules/@angular2-material/button
+312 verbose unbuild node_modules/@angular2-material/card
+313 verbose unbuild node_modules/@angular2-material/core
+314 verbose unbuild node_modules/@angular2-material/toolbar
+315 verbose unbuild node_modules/@angular2-material/list
+316 verbose unbuild node_modules/@angular2-material/sidenav
+317 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button is being purged from base /Users/chrisyanx/git/master-detail-angular2
+318 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+319 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card is being purged from base /Users/chrisyanx/git/master-detail-angular2
+320 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+321 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core is being purged from base /Users/chrisyanx/git/master-detail-angular2
+322 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+323 verbose tar unpack /Users/chrisyanx/.npm/@angular2-material/button/2.0.0-alpha.4/package.tgz
+324 verbose tar unpacking to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+325 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button is being purged
+326 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+327 verbose tar unpack /Users/chrisyanx/.npm/@angular2-material/card/2.0.0-alpha.4/package.tgz
+328 verbose tar unpacking to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+329 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card is being purged
+330 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+331 verbose tar unpack /Users/chrisyanx/.npm/@angular2-material/core/2.0.0-alpha.4/package.tgz
+332 verbose tar unpacking to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+333 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core is being purged
+334 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+335 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar is being purged from base /Users/chrisyanx/git/master-detail-angular2
+336 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+337 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list is being purged from base /Users/chrisyanx/git/master-detail-angular2
+338 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+339 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav is being purged from base /Users/chrisyanx/git/master-detail-angular2
+340 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+341 silly gunzTarPerm modes [ '755', '644' ]
+342 silly gunzTarPerm modes [ '755', '644' ]
+343 silly gunzTarPerm modes [ '755', '644' ]
+344 verbose tar unpack /Users/chrisyanx/.npm/@angular2-material/toolbar/2.0.0-alpha.4/package.tgz
+345 verbose tar unpacking to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+346 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar is being purged
+347 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+348 verbose tar unpack /Users/chrisyanx/.npm/@angular2-material/list/2.0.0-alpha.4/package.tgz
+349 verbose tar unpacking to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+350 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list is being purged
+351 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+352 verbose tar unpack /Users/chrisyanx/.npm/@angular2-material/sidenav/2.0.0-alpha.4/package.tgz
+353 verbose tar unpacking to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+354 silly gentlyRm /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav is being purged
+355 verbose gentlyRm don't care about contents; nuking /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+356 silly gunzTarPerm modes [ '755', '644' ]
+357 silly gunzTarPerm modes [ '755', '644' ]
+358 silly gunzTarPerm modes [ '755', '644' ]
+359 silly gunzTarPerm extractEntry package.json
+360 silly gunzTarPerm extractEntry package.json
+361 silly gunzTarPerm extractEntry package.json
+362 silly gunzTarPerm extractEntry package.json
+363 silly gunzTarPerm extractEntry package.json
+364 silly gunzTarPerm extractEntry package.json
+365 silly gunzTarPerm extractEntry README.md
+366 silly gunzTarPerm extractEntry button.js
+367 silly gunzTarPerm extractEntry README.md
+368 silly gunzTarPerm extractEntry card.js
+369 silly gunzTarPerm extractEntry README.md
+370 silly gunzTarPerm extractEntry core.js
+371 silly gunzTarPerm extractEntry README.md
+372 silly gunzTarPerm extractEntry toolbar.spec.js
+373 silly gunzTarPerm extractEntry README.md
+374 silly gunzTarPerm extractEntry list.js
+375 silly gunzTarPerm extractEntry README.md
+376 silly gunzTarPerm extractEntry sidenav.js
+377 silly gunzTarPerm extractEntry button.spec.js
+378 silly gunzTarPerm extractEntry card-header.html
+379 silly gunzTarPerm extractEntry core.d.ts
+380 silly gunzTarPerm extractEntry style/_palette.scss
+381 silly gunzTarPerm extractEntry toolbar.js
+382 silly gunzTarPerm extractEntry toolbar.html
+383 silly gunzTarPerm extractEntry list.spec.js
+384 silly gunzTarPerm extractEntry sidenav.spec.js
+385 silly gunzTarPerm extractEntry _button-theme.scss
+386 silly gunzTarPerm extractEntry button.css
+387 silly gunzTarPerm extractEntry button.d.ts
+388 silly gunzTarPerm extractEntry style/_default-theme.css
+389 silly gunzTarPerm extractEntry card-title-group.html
+390 silly gunzTarPerm extractEntry card.css
+391 silly gunzTarPerm extractEntry _button-base.css
+392 silly gunzTarPerm extractEntry toolbar.d.ts
+393 silly gunzTarPerm extractEntry toolbar.js.map
+394 silly gunzTarPerm extractEntry list.css
+395 silly gunzTarPerm extractEntry list.d.ts
+396 silly gunzTarPerm extractEntry sidenav.css
+397 silly gunzTarPerm extractEntry sidenav.d.ts
+398 silly gunzTarPerm extractEntry sidenav.spec.js.map
+399 silly gunzTarPerm extractEntry sidenav-transitions.css
+400 silly gunzTarPerm extractEntry style/_elevation.css
+401 silly gunzTarPerm extractEntry style/_elevation.scss
+402 silly gunzTarPerm extractEntry card.d.ts
+403 silly gunzTarPerm extractEntry card.html
+404 silly gunzTarPerm extractEntry _button-theme.css
+405 silly gunzTarPerm extractEntry button.js.map
+406 silly gunzTarPerm extractEntry toolbar.scss
+407 silly gunzTarPerm extractEntry list-item.html
+408 silly gunzTarPerm extractEntry list.scss
+409 silly gunzTarPerm extractEntry sidenav.js.map
+410 silly gunzTarPerm extractEntry sidenav.scss
+411 silly gunzTarPerm extractEntry style/_mixins.css
+412 silly gunzTarPerm extractEntry style/_mixins.scss
+413 silly gunzTarPerm extractEntry card.js.map
+414 silly gunzTarPerm extractEntry card.scss
+415 silly gunzTarPerm extractEntry button.scss
+416 silly gunzTarPerm extractEntry button.spec.d.ts
+417 silly gunzTarPerm extractEntry toolbar.spec.d.ts
+418 silly gunzTarPerm extractEntry toolbar.css
+419 silly gunzTarPerm extractEntry list.spec.d.ts
+420 silly gunzTarPerm extractEntry list.spec.js.map
+421 silly gunzTarPerm extractEntry sidenav.spec.d.ts
+422 silly gunzTarPerm extractEntry sidenav-transitions.scss
+423 silly gunzTarPerm extractEntry style/_palette.css
+424 silly gunzTarPerm extractEntry style/_default-theme.scss
+425 silly gunzTarPerm extractEntry toolbar.spec.js.map
+426 silly gunzTarPerm extractEntry list.js.map
+427 silly gunzTarPerm extractEntry _button-base.scss
+428 silly gunzTarPerm extractEntry button.spec.js.map
+429 silly gunzTarPerm extractEntry sidenav.html
+430 silly gunzTarPerm extractEntry style/_theme-functions.css
+431 silly gunzTarPerm extractEntry style/_theme-functions.scss
+432 silly gunzTarPerm extractEntry button.html
+433 silly gunzTarPerm extractEntry style/_variables.css
+434 silly gunzTarPerm extractEntry style/_variables.scss
+435 silly gunzTarPerm extractEntry style/core.css
+436 silly gunzTarPerm extractEntry style/core.scss
+437 silly gunzTarPerm extractEntry core.js.map
+438 silly gunzTarPerm extractEntry annotations/field-value.js
+439 silly gunzTarPerm extractEntry annotations/field-value.spec.js
+440 silly gunzTarPerm extractEntry annotations/field-value.d.ts
+441 verbose write writing to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card/package.json
+442 silly gunzTarPerm extractEntry annotations/field-value.js.map
+443 silly gunzTarPerm extractEntry annotations/field-value.spec.d.ts
+444 info preinstall @angular2-material/card@2.0.0-alpha.4
+445 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card/package.json
+446 silly gunzTarPerm extractEntry annotations/field-value.spec.js.map
+447 silly gunzTarPerm extractEntry live-announcer/README.md
+448 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card/package.json
+449 verbose write writing to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list/package.json
+450 verbose write writing to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar/package.json
+451 info preinstall @angular2-material/list@2.0.0-alpha.4
+452 info preinstall @angular2-material/toolbar@2.0.0-alpha.4
+453 silly gunzTarPerm extractEntry live-announcer/live-announcer.js
+454 silly gunzTarPerm extractEntry live-announcer/live-announcer.spec.js
+455 silly install resolved []
+456 verbose about to build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+457 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+458 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list/package.json
+459 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar/package.json
+460 info linkStuff @angular2-material/card@2.0.0-alpha.4
+461 silly linkStuff @angular2-material/card@2.0.0-alpha.4 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+462 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list/package.json
+463 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar/package.json
+464 silly gunzTarPerm extractEntry live-announcer/live-announcer.css
+465 silly gunzTarPerm extractEntry live-announcer/live-announcer.d.ts
+466 verbose linkBins @angular2-material/card@2.0.0-alpha.4
+467 verbose linkMans @angular2-material/card@2.0.0-alpha.4
+468 verbose rebuildBundles @angular2-material/card@2.0.0-alpha.4
+469 info install @angular2-material/card@2.0.0-alpha.4
+470 info postinstall @angular2-material/card@2.0.0-alpha.4
+471 silly install resolved []
+472 verbose about to build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+473 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+474 silly install resolved []
+475 verbose about to build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+476 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+477 verbose unlock done using /Users/chrisyanx/.npm/_locks/angular2-material-card-e32d217b7462a562.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/card
+478 silly gunzTarPerm extractEntry live-announcer/live-announcer.js.map
+479 silly gunzTarPerm extractEntry live-announcer/live-announcer.scss
+480 info linkStuff @angular2-material/list@2.0.0-alpha.4
+481 silly linkStuff @angular2-material/list@2.0.0-alpha.4 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+482 info linkStuff @angular2-material/toolbar@2.0.0-alpha.4
+483 silly linkStuff @angular2-material/toolbar@2.0.0-alpha.4 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+484 verbose write writing to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav/package.json
+485 verbose linkBins @angular2-material/list@2.0.0-alpha.4
+486 verbose linkMans @angular2-material/list@2.0.0-alpha.4
+487 verbose rebuildBundles @angular2-material/list@2.0.0-alpha.4
+488 verbose linkBins @angular2-material/toolbar@2.0.0-alpha.4
+489 verbose linkMans @angular2-material/toolbar@2.0.0-alpha.4
+490 verbose rebuildBundles @angular2-material/toolbar@2.0.0-alpha.4
+491 info install @angular2-material/list@2.0.0-alpha.4
+492 info install @angular2-material/toolbar@2.0.0-alpha.4
+493 info preinstall @angular2-material/sidenav@2.0.0-alpha.4
+494 info postinstall @angular2-material/list@2.0.0-alpha.4
+495 info postinstall @angular2-material/toolbar@2.0.0-alpha.4
+496 silly gunzTarPerm extractEntry live-announcer/live-announcer.spec.d.ts
+497 silly gunzTarPerm extractEntry live-announcer/live-announcer.spec.js.map
+498 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav/package.json
+499 verbose unlock done using /Users/chrisyanx/.npm/_locks/angular2-material-list-1e95fc7d9a169270.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/list
+500 verbose unlock done using /Users/chrisyanx/.npm/_locks/angular2-material-toolba-febac6ab33a41397.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/toolbar
+501 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav/package.json
+502 verbose write writing to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button/package.json
+503 silly gunzTarPerm extractEntry overlay/overlay-ref.js
+504 silly gunzTarPerm extractEntry overlay/overlay-state.js
+505 silly install resolved []
+506 verbose about to build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+507 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+508 info preinstall @angular2-material/button@2.0.0-alpha.4
+509 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button/package.json
+510 info linkStuff @angular2-material/sidenav@2.0.0-alpha.4
+511 silly linkStuff @angular2-material/sidenav@2.0.0-alpha.4 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+512 silly gunzTarPerm extractEntry overlay/overlay-container.js
+513 silly gunzTarPerm extractEntry overlay/overlay.js
+514 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button/package.json
+515 verbose linkBins @angular2-material/sidenav@2.0.0-alpha.4
+516 verbose linkMans @angular2-material/sidenav@2.0.0-alpha.4
+517 verbose rebuildBundles @angular2-material/sidenav@2.0.0-alpha.4
+518 info install @angular2-material/sidenav@2.0.0-alpha.4
+519 info postinstall @angular2-material/sidenav@2.0.0-alpha.4
+520 silly gunzTarPerm extractEntry overlay/overlay.spec.js
+521 silly gunzTarPerm extractEntry overlay/overlay.css
+522 silly install resolved []
+523 verbose about to build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+524 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+525 verbose unlock done using /Users/chrisyanx/.npm/_locks/angular2-material-sidena-1526e57fb834da0b.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/sidenav
+526 info linkStuff @angular2-material/button@2.0.0-alpha.4
+527 silly linkStuff @angular2-material/button@2.0.0-alpha.4 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+528 verbose linkBins @angular2-material/button@2.0.0-alpha.4
+529 verbose linkMans @angular2-material/button@2.0.0-alpha.4
+530 verbose rebuildBundles @angular2-material/button@2.0.0-alpha.4
+531 info install @angular2-material/button@2.0.0-alpha.4
+532 info postinstall @angular2-material/button@2.0.0-alpha.4
+533 silly gunzTarPerm extractEntry overlay/overlay-state.d.ts
+534 silly gunzTarPerm extractEntry overlay/overlay-container.js.map
+535 verbose unlock done using /Users/chrisyanx/.npm/_locks/angular2-material-button-f0cb0ad16b4c8062.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/button
+536 silly gunzTarPerm extractEntry overlay/overlay-state.js.map
+537 silly gunzTarPerm extractEntry overlay/overlay-ref.d.ts
+538 silly gunzTarPerm extractEntry overlay/overlay.d.ts
+539 silly gunzTarPerm extractEntry overlay/overlay-container.d.ts
+540 silly gunzTarPerm extractEntry overlay/overlay.js.map
+541 silly gunzTarPerm extractEntry overlay/overlay.scss
+542 silly gunzTarPerm extractEntry overlay/overlay.spec.d.ts
+543 silly gunzTarPerm extractEntry overlay/overlay-ref.js.map
+544 silly gunzTarPerm extractEntry overlay/overlay.spec.js.map
+545 silly gunzTarPerm extractEntry overlay/position/global-position-strategy.spec.js
+546 silly gunzTarPerm extractEntry overlay/position/global-position-strategy.js
+547 silly gunzTarPerm extractEntry overlay/position/position-strategy.js
+548 silly gunzTarPerm extractEntry overlay/position/relative-position-strategy.js
+549 silly gunzTarPerm extractEntry overlay/position/position-strategy.d.ts
+550 silly gunzTarPerm extractEntry overlay/position/global-position-strategy.spec.js.map
+551 silly gunzTarPerm extractEntry overlay/position/global-position-strategy.js.map
+552 silly gunzTarPerm extractEntry overlay/position/global-position-strategy.spec.d.ts
+553 silly gunzTarPerm extractEntry overlay/position/position-strategy.js.map
+554 silly gunzTarPerm extractEntry overlay/position/relative-position-strategy.d.ts
+555 silly gunzTarPerm extractEntry overlay/position/global-position-strategy.d.ts
+556 silly gunzTarPerm extractEntry overlay/position/relative-position-strategy.js.map
+557 silly gunzTarPerm extractEntry async/promise-completer.js
+558 silly gunzTarPerm extractEntry async/promise-completer.d.ts
+559 silly gunzTarPerm extractEntry async/promise-completer.js.map
+560 silly gunzTarPerm extractEntry portal/README.md
+561 silly gunzTarPerm extractEntry portal/dom-portal-host.js
+562 silly gunzTarPerm extractEntry portal/portal.spec.js
+563 silly gunzTarPerm extractEntry portal/portal.js
+564 silly gunzTarPerm extractEntry portal/portal-directives.js
+565 silly gunzTarPerm extractEntry portal/portal-errors.js
+566 silly gunzTarPerm extractEntry portal/portal-directives.js.map
+567 silly gunzTarPerm extractEntry portal/portal-errors.d.ts
+568 silly gunzTarPerm extractEntry portal/dom-portal-host.d.ts
+569 silly gunzTarPerm extractEntry portal/portal-errors.js.map
+570 silly gunzTarPerm extractEntry portal/portal.d.ts
+571 silly gunzTarPerm extractEntry portal/portal-directives.d.ts
+572 silly gunzTarPerm extractEntry portal/portal.js.map
+573 silly gunzTarPerm extractEntry portal/portal.spec.d.ts
+574 silly gunzTarPerm extractEntry portal/dom-portal-host.js.map
+575 silly gunzTarPerm extractEntry portal/portal.spec.js.map
+576 silly gunzTarPerm extractEntry rtl/dir.js
+577 silly gunzTarPerm extractEntry rtl/dir.d.ts
+578 silly gunzTarPerm extractEntry rtl/dir.js.map
+579 silly gunzTarPerm extractEntry gestures/MdGestureConfig.js
+580 silly gunzTarPerm extractEntry gestures/MdGestureConfig.d.ts
+581 silly gunzTarPerm extractEntry gestures/MdGestureConfig.js.map
+582 verbose write writing to /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core/package.json
+583 info preinstall @angular2-material/core@2.0.0-alpha.4
+584 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core/package.json
+585 verbose readDependencies loading dependencies from /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core/package.json
+586 silly install resolved []
+587 verbose about to build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+588 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+589 info linkStuff @angular2-material/core@2.0.0-alpha.4
+590 silly linkStuff @angular2-material/core@2.0.0-alpha.4 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+591 verbose linkBins @angular2-material/core@2.0.0-alpha.4
+592 verbose linkMans @angular2-material/core@2.0.0-alpha.4
+593 verbose rebuildBundles @angular2-material/core@2.0.0-alpha.4
+594 info install @angular2-material/core@2.0.0-alpha.4
+595 info postinstall @angular2-material/core@2.0.0-alpha.4
+596 verbose unlock done using /Users/chrisyanx/.npm/_locks/angular2-material-core-d2c9ea6a292ea39e.lock for /Users/chrisyanx/git/master-detail-angular2/node_modules/@angular2-material/core
+597 info build /Users/chrisyanx/git/master-detail-angular2
+598 info linkStuff angular2-quickstart@1.0.0
+599 silly linkStuff angular2-quickstart@1.0.0 has /Users/chrisyanx/git as its parent node_modules
+600 verbose linkBins angular2-quickstart@1.0.0
+601 verbose linkMans angular2-quickstart@1.0.0
+602 verbose rebuildBundles angular2-quickstart@1.0.0
+603 verbose rebuildBundles [ '.bin',
+603 verbose rebuildBundles   '@angular',
+603 verbose rebuildBundles   '@angular2-material',
+603 verbose rebuildBundles   'angular2',
+603 verbose rebuildBundles   'angular2-in-memory-web-api',
+603 verbose rebuildBundles   'bootstrap',
+603 verbose rebuildBundles   'concurrently',
+603 verbose rebuildBundles   'es6-shim',
+603 verbose rebuildBundles   'lite-server',
+603 verbose rebuildBundles   'reflect-metadata',
+603 verbose rebuildBundles   'rxjs',
+603 verbose rebuildBundles   'systemjs',
+603 verbose rebuildBundles   'typescript',
+603 verbose rebuildBundles   'typings',
+603 verbose rebuildBundles   'zone.js' ]
+604 verbose rebuild bundle /Users/chrisyanx/git/master-detail-angular2/node_modules/angular2
+605 info build /Users/chrisyanx/git/master-detail-angular2/node_modules/angular2
+606 info preinstall angular2@2.0.0-beta.17
+607 info linkStuff angular2@2.0.0-beta.17
+608 silly linkStuff angular2@2.0.0-beta.17 has /Users/chrisyanx/git/master-detail-angular2/node_modules as its parent node_modules
+609 verbose linkBins angular2@2.0.0-beta.17
+610 verbose linkMans angular2@2.0.0-beta.17
+611 verbose rebuildBundles angular2@2.0.0-beta.17
+612 info install angular2@2.0.0-beta.17
+613 info postinstall angular2@2.0.0-beta.17
+614 info install angular2-quickstart@1.0.0
+615 info postinstall angular2-quickstart@1.0.0
+616 verbose unsafe-perm in lifecycle true
+617 info prepublish angular2-quickstart@1.0.0
+618 verbose validateInstall loading /Users/chrisyanx/git/master-detail-angular2/package.json for validation
+619 verbose stack Error: The package reflect-metadata@0.1.3 does not satisfy its siblings' peerDependencies requirements!
+619 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+619 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+619 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+619 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+619 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+619 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+619 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+619 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+619 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+619 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+620 verbose cwd /Users/chrisyanx/git/master-detail-angular2
+621 error Darwin 14.5.0
+622 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+623 error node v4.4.2
+624 error npm  v2.15.0
+625 error code EPEERINVALID
+626 error peerinvalid The package reflect-metadata@0.1.3 does not satisfy its siblings' peerDependencies requirements!
+626 error peerinvalid Peer angular2@2.0.0-beta.17 wants reflect-metadata@0.1.2
+627 verbose exit [ 1, true ]

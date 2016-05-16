@@ -1,12 +1,14 @@
-import {Component, OnInit} from 'angular2/core';
-import {RouteParams, Router} from 'angular2/router';
-import {RouteConfig, AuxRoute, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
+import {Component, OnInit} from '@angular/core';
+
+import { Hero } from '../../models/hero';
+import { HeroService } from '../../services/hero.service';
+import { HeroListComponent } from '../../components/hero-list/hero-list.component';
+import { HeroDetailView } from '../hero-detail-view/hero-detail-view.component';
+
+import { Routes, Router, ROUTER_DIRECTIVES  } from '@angular/router';
 
 import {MD_CARD_DIRECTIVES} from '@angular2-material/card/card';
 
-import {Empty} from '../../../empty/index';
-import {HeroDetailView} from '../hero-detail-view/hero-detail-view.component';
-import {Hero, HeroService, HeroListComponent} from '../../index';
 
 @Component({
     selector: 'hero-view',
@@ -30,23 +32,12 @@ import {Hero, HeroService, HeroListComponent} from '../../index';
     directives: [ROUTER_DIRECTIVES, MD_CARD_DIRECTIVES, HeroListComponent],
     providers: [HeroService]
 })
-@RouteConfig([
-    {
-        path: '',
-        name: 'EmptyComponent',
-        component: Empty,
-        useAsDefault: true
-    },
-    {
-        path: '/detail',
-        name: 'HeroDetailView',
-        component: HeroDetailView
-    }
+@Routes([
+    { path: '/detail/:id', component: HeroDetailView}
 ])
 export class HeroView implements OnInit {
 
     constructor(private _heroService: HeroService,
-                private _routeParams: RouteParams,
                 private _router: Router) {}
 
     heros: Hero[];
@@ -56,7 +47,7 @@ export class HeroView implements OnInit {
     }
 
     heroSelected(hero: Hero) {
-        this._router.navigate(['HeroView', 'HeroDetailView', {id: hero.id}]);
+        this._router.navigate(['/heros/detail/', hero.id]);
     }
 
     _loadHeros() {

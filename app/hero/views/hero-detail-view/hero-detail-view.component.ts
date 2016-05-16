@@ -1,9 +1,11 @@
-import {Component, OnInit} from 'angular2/core';
-import {Router, RouteParams} from 'angular2/router';
+import { Component, OnInit } from '@angular/core';
+import { OnActivate, Router, RouteSegment } from '@angular/router';
+
+import { Hero, HeroService, HeroDetailComponent }  from '../../index';
+
 import {MD_CARD_DIRECTIVES} from '@angular2-material/card/card';
 import {MdButton} from '@angular2-material/button/button';
 
-import {Hero, HeroService, HeroDetailComponent} from '../../index';
 
 @Component({
     selector: 'hero-detail-view',
@@ -27,28 +29,32 @@ import {Hero, HeroService, HeroDetailComponent} from '../../index';
     providers: [HeroService],
     directives: [MD_CARD_DIRECTIVES, MdButton, HeroDetailComponent]
 })
-export class HeroDetailView implements OnInit {
+export class HeroDetailView implements OnInit, OnActivate {
 
-    constructor(private _routeParams: RouteParams,
-                private _router: Router,
+    constructor(private _router: Router,
                 private _heroService: HeroService) {}
 
     selectedHero: Hero;
 
     ngOnInit() {
         console.log('HeroDetailView');
-        var id = this._routeParams.get('id');
+        //var id = this._routeParams.get('id');
+        //this.selectedHero = this._heroService.getHeroById(id);
+        //console.log(id);
+    }
+
+    routerOnActivate(curr: RouteSegment): void {
+        let id = +curr.getParam('id');
         this.selectedHero = this._heroService.getHeroById(id);
-        console.log(id);
     }
 
     save() {
         console.log('shaved');
-        this._router.navigate(['/HeroView']);
+        this._router.navigate(['/heros']);
     }
 
     cancel() {
         console.log('canceld');
-        this._router.navigate(['/HeroView']);
+        this._router.navigate(['/heros']);
     }
 }
