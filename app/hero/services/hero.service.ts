@@ -16,13 +16,6 @@ export class HeroService {
     }
 
     getHeroById(id) {
-        var result = undefined;
-        HEROS.forEach((hero) => {
-            if(hero.id == id) {
-                result = hero;
-            }
-        });
-        console.log(result);
-        return result;
+        return HEROS.find((hero) => hero.id === id);
     }
 }
