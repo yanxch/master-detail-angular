@@ -3,10 +3,10 @@ import { Routes, Router, ROUTER_DIRECTIVES  } from '@angular/router';
 
 import { MdToolbar } from '@angular2-material/toolbar/toolbar';
 import { MdButton } from '@angular2-material/button/button';
-import {MdCard, MdCardHeader, MdCardTitleGroup} from '@angular2-material/card/card';
+import { MdCard, MdCardHeader, MdCardTitleGroup } from '@angular2-material/card/card';
 
 
-import { Hero, HeroService, HeroView } from './hero/index';
+import { HeroView } from './hero/index';
 import { HomeView } from './home/index';
 
 @Component({
@@ -39,8 +39,7 @@ import { HomeView } from './home/index';
 
   `,
   styleUrls: ['app/app.css'],
-  directives: [ROUTER_DIRECTIVES, MdToolbar, MdButton, MdCard, MdCardHeader, MdCardTitleGroup],
-  providers: [HeroService]
+  directives: [ROUTER_DIRECTIVES, MdToolbar, MdButton, MdCard, MdCardHeader, MdCardTitleGroup]
 })
 @Routes([
     { path: '/', component: HomeView },

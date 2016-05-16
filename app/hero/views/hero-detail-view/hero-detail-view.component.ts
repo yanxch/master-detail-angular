@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { OnActivate, Router, RouteSegment } from '@angular/router';
 
 import { Hero, HeroService, HeroDetailComponent }  from '../../index';
@@ -26,25 +26,18 @@ import {MdButton} from '@angular2-material/button/button';
         </div>
     `,
     styleUrls: ['app/hero/views/hero-detail-view/hero-detail-view.css'],
-    providers: [HeroService],
-    directives: [MD_CARD_DIRECTIVES, MdButton, HeroDetailComponent]
+    directives: [MD_CARD_DIRECTIVES, MdButton, HeroDetailComponent],
+    providers: [HeroService]
 })
-export class HeroDetailView implements OnInit, OnActivate {
+export class HeroDetailView implements OnActivate {
 
     constructor(private _router: Router,
                 private _heroService: HeroService) {}
 
     selectedHero: Hero;
 
-    ngOnInit() {
-        console.log('HeroDetailView');
-        //var id = this._routeParams.get('id');
-        //this.selectedHero = this._heroService.getHeroById(id);
-        //console.log(id);
-    }
-
     routerOnActivate(curr: RouteSegment): void {
-        let id = +curr.getParam('id');
+        let id = curr.getParam('id');
         this.selectedHero = this._heroService.getHeroById(id);
     }
 
